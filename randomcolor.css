@@ -1,0 +1,73 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+div {
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+footer a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+footer a.insta-handle, footer a.linkedin-handle {
+    padding: 14px 20px; /* Ensure padding for spacing */
+}
+
+footer a.insta-handle {
+    margin-right: 10px; /* Add space between logos */
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        flex-direction: column;
+    }
+    
+    .flex-align-right {
+        margin-left: 0;
+    }
+
+    .btn {
+        height: 150px;
+        width: 150px;
+        margin: 1.5rem;
+    }
+}
